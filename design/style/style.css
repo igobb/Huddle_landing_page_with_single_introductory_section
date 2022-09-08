@@ -105,7 +105,6 @@ button:hover {
         background-size: 100%;
         background-position: top;
         padding: 10%;
-        height: 100%;
     }
     .logo {
         width: 150px;
@@ -128,17 +127,12 @@ button:hover {
         width: 70%;
     }
     .social_logos {
-        margin: 50px auto;
+        margin: auto;
         width: 50%;
         justify-content: space-between;
-        top: 80px;
+        top: 0;
     }
     .fa-brands {
         margin: 0;
-    }
-}
-@media only screen and (max-width: 650px) {
-    .social_logos {
-        top: 0;
     }
 }
